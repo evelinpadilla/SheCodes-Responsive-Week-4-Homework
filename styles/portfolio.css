@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(55, 66, 88);
+}
+h1 {
+  color: rgb(235, 235, 235);
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  color: rgb(235, 235, 235);
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+p {
+  color: rgb(235, 235, 235);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+footer {
+  color: rgb (173, 185, 201);
+}
