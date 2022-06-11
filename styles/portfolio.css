@@ -1,23 +1,44 @@
+:root {
+  --branding-color: rgb(173, 185, 201);
+  --default-color-family: rgb(235, 235, 235);
+  --heading-font-family: "Libre Baskerville", serif;
+  --default-font-family: "Source Sans Pro", sans-serif;
+}
 body {
-  background-color: rgb(55, 66, 88);
-}
-h1 {
-  color: rgb(235, 235, 235);
-  font-family: "Libre Baskerville", serif;
-  font-size: 36px;
-  font-weight: bold;
-}
-h2 {
-  color: rgb(235, 235, 235);
-  font-family: "Libre Baskerville", serif;
-  font-size: 36px;
-  font-weight: bold;
-}
-p {
-  color: rgb(235, 235, 235);
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: normal;
+  background-color: var(--branding-color);
 }
 footer {
-  color: rgb (173, 185, 201);
+  color: var(--default-color-family);
+}
+h1 {
+  color: var(--default-color-family);
+  font-family: var(--heading-font-family);
+  font-size: 84px;
+  font-weight: bold;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: var(--default-color-family);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+.hero {
+  background-color: rgb(55, 66, 88);
+  padding: 160px 20px;
+  text-align: center;
+}
+.hero h2 {
+  color: var(--default-color-family);
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 2;
+}
+.hero p {
+  color: var(--default-color-family);
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
 }
